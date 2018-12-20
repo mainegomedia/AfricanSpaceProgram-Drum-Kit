@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 360 589" style="enable-background:new 0 0 360 589;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1A1A1A;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
+	.st1{fill:#666666;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#CCCCCC;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#E6E6E6;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:none;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'Optimus';}
+	.st7{font-size:37px;}
+	.st8{fill:#22B573;}
+	.st9{fill:#CCCCCC;stroke:#000000;stroke-width:0.9059;stroke-miterlimit:10;}
+	.st10{fill:#999999;stroke:#000000;stroke-miterlimit:10;}
+	.st11{stroke:#000000;stroke-miterlimit:10;}
+	.st12{fill:#FF0000;}
+	.st13{font-size:47px;}
+</style>
+<g id="background">
+</g>
+<g id="pyramid">
+</g>
+<g id="face2">
+</g>
+<g id="contour">
+</g>
+<g id="backpanel">
+</g>
+<g id="buttons">
+</g>
+<g id="Layer_6">
+	<polygon class="st0" points="24.5,21.5 312.5,5.5 341.5,29.5 358.5,551.5 323.5,582.5 29.5,583.5 3.5,544.5 3.5,53.5 	"/>
+	<g>
+		<path class="st1" d="M308.5,60.5c0,0,23,35,9,59l-261,22c0,0-21-5-23-22s19-36,19-36L308.5,60.5z"/>
+		<circle class="st2" cx="74" cy="113" r="20.5"/>
+		<circle class="st2" cx="145" cy="105" r="20.5"/>
+		<circle class="st2" cx="217" cy="100" r="20.5"/>
+		<circle class="st2" cx="287" cy="93" r="20.5"/>
+	</g>
+	<polygon class="st3" points="36.5,276.5 259.5,276.5 259.5,296.5 42.5,305.5 	"/>
+	<circle class="st2" cx="312" cy="286" r="20.5"/>
+	
+		<rect x="40.9" y="31" transform="matrix(0.9978 -6.574432e-02 6.574432e-02 0.9978 -2.9079 11.9345)" class="st4" width="278" height="38.3"/>
+	<text transform="matrix(0.9975 -7.069001e-02 7.069001e-02 0.9975 41.727 65.8935)"><tspan x="0" y="0" class="st5 st6 st7">SpacePro</tspan><tspan x="179.8" y="0" class="st8 st6 st7">404</tspan></text>
+	<g>
+		<path class="st9" d="M330.5,389.6h-35.5c-6,0-10.9-4.9-10.9-10.9v-28.9c0-6,4.9-10.9,10.9-10.9h35.5c6,0,10.9,4.9,10.9,10.9v28.9
+			C341.4,384.7,336.5,389.6,330.5,389.6z"/>
+		<path class="st9" d="M332.1,458.7h-35.5c-6,0-10.9-4.9-10.9-10.9V419c0-6,4.9-10.9,10.9-10.9h35.5c6,0,10.9,4.9,10.9,10.9v28.9
+			C343,453.8,338.1,458.7,332.1,458.7z"/>
+		<path class="st9" d="M332.1,527.8h-35.5c-6,0-10.9-4.9-10.9-10.9v-28.9c0-6,4.9-10.9,10.9-10.9h35.5c6,0,10.9,4.9,10.9,10.9V517
+			C343,522.9,338.1,527.8,332.1,527.8z"/>
+	</g>
+	<g>
+		<path class="st2" d="M53.5,172.5l241-17c0,0,54,50,14,97l-249,8C59.5,260.5,20.5,224.5,53.5,172.5z"/>
+		<circle class="st10" cx="182.5" cy="204.5" r="62"/>
+		<path class="st1" d="M69.5,178.5l44-4c0,0-10,9-11,16l-43,4C59.5,194.5,61.5,183.5,69.5,178.5z"/>
+		<path class="st1" d="M56.5,200.5h46c0,0-4,2,2,16h-48C56.5,216.5,51.5,212.5,56.5,200.5z"/>
+		<path class="st11" d="M142.5,179.5l74-3c0,0,28,27,4,57l-73,3C147.5,236.5,126.5,221.5,142.5,179.5z"/>
+		<g>
+			<path class="st1" d="M240.5,171.5c0,0,8,9,10,15l49-8c0,0-6-12-12-16L240.5,171.5z"/>
+			<path class="st1" d="M250.5,191.5l51-5c0,0,5,9,7,19l-55,8C253.5,213.5,255.5,205.5,250.5,191.5z"/>
+			<path class="st1" d="M253.5,220.5l55-7c0,0-1,16-5,21l-63,9C240.5,243.5,253.5,227.5,253.5,220.5z"/>
+		</g>
+		<path class="st1" d="M56.5,227.5h52c0,0,2,11,7,15l-49,3C66.5,245.5,58.5,239.5,56.5,227.5z"/>
+		
+			<rect x="147" y="190" transform="matrix(0.9998 -1.872431e-02 1.872431e-02 0.9998 -3.9547 3.623)" class="st4" width="89" height="46"/>
+		<text transform="matrix(0.9998 -1.872000e-02 1.872000e-02 0.9998 147.1177 223.529)" class="st12 st6 st13">127</text>
+	</g>
+</g>
+</svg>

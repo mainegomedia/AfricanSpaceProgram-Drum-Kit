@@ -7,11 +7,10 @@
 </head>
 <body>
 
-
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
-      <span class="sound">clap</span>
+      <span class="file">clap</span>
     </div>
     <div data-key="83" class="key">
       <kbd>S</kbd>
@@ -23,7 +22,7 @@
     </div>
     <div data-key="70" class="key">
       <kbd>F</kbd>
-      <span class="sound">openhat</span>
+      <span class="sound">open</span>
     </div>
     <div data-key="71" class="key">
       <kbd>G</kbd>
@@ -46,6 +45,10 @@
       <span class="sound">tink</span>
     </div>
   </div>
+
+<div id ="face1"><img src="images/assets/face-1.svg"></div>
+<div id ="sp404"><img src="images/assets/SP404.svg" style="height:600px"></div>
+<div id ="face2"><img src="images/assets/face-2.svg"></div>
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
   <audio data-key="83" src="sounds/hihat.wav"></audio>
@@ -80,8 +83,11 @@ keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
   window.addEventListener('keydown', playsound);
 
+ 
+
 </script>
 
 
 </body>
+
 </html>
