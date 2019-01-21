@@ -4,43 +4,65 @@
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+    const clap = new Audio();
+    clap.src = "sounds/clap.wav";
+    const hihat = new Audio();
+    hihat.src = "sounds/hihat.wav";
+    const kick = new Audio();
+    kick.src = "sounds/kick.wav";
+    const open = new Audio();
+    open.src = "sounds/openhat.wav";
+    const boom = new Audio();
+    boom.src = "sounds/boom.wav";
+    const ride = new Audio();
+    ride.src = "sounds/ride.wav";
+    const snare = new Audio();
+    snare.src = "sounds/snare.wav";
+    const tom = new Audio();
+    tom.src = "sounds/tom.wav";
+    const tink = new Audio();
+    tink.src = "sounds/tink.wav";                                
+
+  </script>
 </head>
+
 <body>
 
-  <div class="keys">
-    <div data-key="65" class="key">
+  <div class="keys" value="PLAY">
+    <div data-key="65" class="key" onmousedown="clap.play()">
       <kbd>A</kbd>
       <span class="sound">clap</span>
     </div>
-    <div data-key="83" class="key">
+    <div data-key="83" class="key" onmousedown="hihat.play()">
       <kbd>S</kbd>
       <span class="sound">hihat</span>
     </div>
-    <div data-key="68" class="key">
+    <div data-key="68" class="key" onmousedown="kick.play()">
       <kbd>D</kbd>
       <span class="sound">kick</span>
     </div>
-    <div data-key="70" class="key">
+    <div data-key="70" class="key" onmousedown="openhat.play()">
       <kbd>F</kbd>
       <span class="sound">open</span>
     </div>
-    <div data-key="71" class="key">
+    <div data-key="71" class="key" onmousedown="boom.play()">
       <kbd>G</kbd>
       <span class="sound">boom</span>
     </div>
-    <div data-key="72" class="key">
+    <div data-key="72" class="key" onmousedown="ride.play()">
       <kbd>H</kbd>
       <span class="sound">ride</span>
     </div>
-    <div data-key="74" class="key">
+    <div data-key="74" class="key" onmousedown="snare.play()">
       <kbd>J</kbd>
       <span class="sound">snare</span>
     </div>
-    <div data-key="75" class="key">
+    <div data-key="75" class="key" onmousedown="tom.play()">
       <kbd>K</kbd>
       <span class="sound">tom</span>
     </div>
-    <div data-key="76" class="key">
+    <div data-key="76" class="key" onmousedown="tink.play()">
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
@@ -78,12 +100,14 @@
     this.classList.remove('playing');  
   }
 
+  function replay() {
+
+  }
+
 const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
-  window.addEventListener('keydown', playsound);
-
- 
+window.addEventListener('keydown', playsound);
 
 </script>
 

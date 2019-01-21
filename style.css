@@ -23,8 +23,8 @@ body {
   align-items: center;
   justify-content: center;
   position: fixed;
-  z-index: 1;
-  margin: 320px 0% 0% 37%;
+  z-index: 2;
+  margin: 340px 0% 0% 37%;
   /* background-color: azure; */
   position: fixed;
 }
@@ -43,6 +43,7 @@ body {
   text-shadow: 0 0 .5rem black;
   float: left;
   z-index: 1;
+  cursor: pointer;
 }
 
 .playing {
@@ -66,19 +67,26 @@ kbd {
 #face1 img {
   height: 600px;
   float: left;
-  margin-left: 18%;
+  margin-top:2%;
+  margin-left:18%;
+  margin-right:1%;
   position: fixed;
+  z-index: 0;
 }
 
 #sp404 img {
   height:600px;
-  margin-left: 38%;
+  margin-top:2%;
+  margin-left:38%;
   position:fixed;
-
+  z-index: 1;
 }
 
 #face2 img {
+  margin-top:2%;
   height: 600px;
   float: right;
   margin-right: 19%;
+  margin-left: 1%;
+  position: relative;
 }
