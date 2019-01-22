@@ -30,7 +30,7 @@
 <body>
 
   <div class="keys" value="PLAY">
-    <div data-key="65" class="key" onmousedown="if(!clap) return; clap.currentTime = 0; clap.play()">
+    <div data-key="65" class="key" onmousedown="if(!clap) return; clap.currentTime = 0; clap.play(); key.classList.add('playing'); ">
       <kbd>A</kbd>
       <span class="sound">clap</span>
     </div>
