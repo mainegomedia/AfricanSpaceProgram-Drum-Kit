@@ -30,39 +30,39 @@
 <body>
 
   <div class="keys" value="PLAY">
-    <div data-key="65" class="key" onmousedown="clap.play()">
+    <div data-key="65" class="key" onmousedown="if(!clap) return; clap.currentTime = 0; clap.play()">
       <kbd>A</kbd>
       <span class="sound">clap</span>
     </div>
-    <div data-key="83" class="key" onmousedown="hihat.play()">
+    <div data-key="83" class="key" onmousedown="if(!hihat) return; hihat.currentTime = 0; hihat.play()">
       <kbd>S</kbd>
       <span class="sound">hihat</span>
     </div>
-    <div data-key="68" class="key" onmousedown="kick.play()">
+    <div data-key="68" class="key" onmousedown="if(!kick) return; kick.currentTime = 0; kick.play()">
       <kbd>D</kbd>
       <span class="sound">kick</span>
     </div>
-    <div data-key="70" class="key" onmousedown="openhat.play()">
+    <div data-key="70" class="key" onmousedown="if(!openhat) return; openhat.currentTime = 0; openhat.play()">
       <kbd>F</kbd>
       <span class="sound">open</span>
     </div>
-    <div data-key="71" class="key" onmousedown="boom.play()">
+    <div data-key="71" class="key" onmousedown="if(!boom) return; boom.currentTime = 0; boom.play()">
       <kbd>G</kbd>
       <span class="sound">boom</span>
     </div>
-    <div data-key="72" class="key" onmousedown="ride.play()">
+    <div data-key="72" class="key" onmousedown="if(!ride) return; ride.currentTime = 0; ride.play()">
       <kbd>H</kbd>
       <span class="sound">ride</span>
     </div>
-    <div data-key="74" class="key" onmousedown="snare.play()">
+    <div data-key="74" class="key" onmousedown="if(!snare) return; snare.currentTime = 0; snare.play()">
       <kbd>J</kbd>
       <span class="sound">snare</span>
     </div>
-    <div data-key="75" class="key" onmousedown="tom.play()">
+    <div data-key="75" class="key" onmousedown="if(!tom) return; tom.currentTime = 0; tom.play()">
       <kbd>K</kbd>
       <span class="sound">tom</span>
     </div>
-    <div data-key="76" class="key" onmousedown="tink.play()">
+    <div data-key="76" class="key" onmousedown="if(!tink) return; tink.currentTime = 0; tink.play()">
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
